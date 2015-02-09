@@ -20,7 +20,6 @@
 		711A508D19388096005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A508B19388096005642EF /* InfoPlist.strings */; };
 		711A508F19388096005642EF /* DayXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A508E19388096005642EF /* DayXTests.m */; };
 		87BD18E01A89526700024C8A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BD18DE1A89526700024C8A /* DetailViewController.m */; };
-		87BD18E11A89526700024C8A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BD18DF1A89526700024C8A /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		711A508E19388096005642EF /* DayXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayXTests.m; sourceTree = "<group>"; };
 		87BD18DD1A89526700024C8A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
 		87BD18DE1A89526700024C8A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
-		87BD18DF1A89526700024C8A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +114,6 @@
 				711A507919388095005642EF /* DXAppDelegate.m */,
 				87BD18DD1A89526700024C8A /* DetailViewController.h */,
 				87BD18DE1A89526700024C8A /* DetailViewController.m */,
-				87BD18DF1A89526700024C8A /* DetailViewController.xib */,
 				711A507B19388095005642EF /* Images.xcassets */,
 				711A507019388095005642EF /* Supporting Files */,
 			);
@@ -229,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				711A507419388095005642EF /* InfoPlist.strings in Resources */,
-				87BD18E11A89526700024C8A /* DetailViewController.xib in Resources */,
 				711A507C19388095005642EF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
