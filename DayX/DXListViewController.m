@@ -9,6 +9,7 @@
 #import "DXListViewController.h"
 #import "DXListTableViewDataSource.h"
 #import "DXDetailViewController.h"
+#import "PresentationViewController.h"
 
 #import "EntryController.h"
 
@@ -16,6 +17,8 @@
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) DXListTableViewDataSource *dataSource;
+@property (nonatomic, strong) PresentationViewController *presentationViewController;
+
 
 @end
 
@@ -23,18 +26,17 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
     [self.tableView reloadData];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(add:)];
     self.navigationItem.rightBarButtonItem = addButton;
     
-    self.dataSource = [DXListTableViewDataSource new];
-    
+   self.dataSource = [DXListTableViewDataSource new];
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableView];
     
@@ -47,9 +49,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    DXDetailViewController *detailViewController = [DXDetailViewController new];
-    [detailViewController updateWithEntry:[EntryController sharedInstance].entries[indexPath.row]];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    PresentationViewController *presentationViewController = [PresentationViewController new];
+    [self presentViewController:presentationViewController animated:YES completion:nil];
+    
+    
+    //    DXDetailViewController *detailViewController = [DXDetailViewController new];
+    //    [detailViewController updateWithEntry:[EntryController sharedInstance].entries[indexPath.row]];
+    //    [self.navigationController pushViewController: presentationViewController animated: YES];
 
 }
 
