@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Entry;
+
+//static NSString * const titleKey = @"title";
+//static NSString * const textKey = @"text";
+//static NSString * const timestampKey = @"timestamp";
 
 @interface DXDetailViewController : UIViewController
+
+- (void) updateWithEntry: (Entry *) entry;
 
 @end

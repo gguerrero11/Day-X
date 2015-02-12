@@ -9,11 +9,13 @@
 #import "DXListViewController.h"
 #import "DXListTableViewDataSource.h"
 #import "DXDetailViewController.h"
+#import "EntryController.h"
 
 @interface DXListViewController () <UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) DXListTableViewDataSource *dataSource;
+@property (nonatomic, strong) DXDetailViewController *dvc;
 
 @end
 
@@ -39,11 +41,15 @@
     self.tableView.dataSource = self.dataSource;
     self.tableView.delegate = self;
     [self.dataSource registerTableView:self.tableView];
+    NSLog(@"%lu",(unsigned long)[EntryController sharedInstance].entries.count);
 
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    DXDetailViewController *dvc = [DXDetailViewController new];
+    [dvc updateWithEntry:[EntryController sharedInstance].entries[indexPath.row]];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
 - (void)add:(id)sender {

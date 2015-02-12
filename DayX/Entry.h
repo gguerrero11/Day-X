@@ -21,9 +21,5 @@ static NSString * const timestampKey = @"timestamp";
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 - (NSDictionary *)entryDictionary;
 
-// To be moved to a controller class later
-
-+ (NSMutableArray *)loadEntriesFromDefaults;
-+ (void)storeEntriesInDefaults:(NSArray *)entries;
 
 @end
