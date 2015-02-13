@@ -40,7 +40,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="clear:" destination="-1" eventType="touchUpInside" id="e77-mo-LnI"/>
+                        <action selector="clear:" destination="-1" eventType="touchUpInside" id="QdW-oA-8e1"/>
                     </connections>
                 </button>
             </subviews>

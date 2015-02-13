@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		4941206A1A8D8C6000371DD4 /* DXListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 494120691A8D8C6000371DD4 /* DXListTableViewDataSource.m */; };
+=======
+<<<<<<< HEAD
+		49DD05361A8C60A10056439B /* EntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DD05351A8C60A10056439B /* EntryController.m */; };
+		4FF7BCF01A688B9F007AB98B /* DXListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7BCED1A688B9F007AB98B /* DXListViewController.m */; };
+		4FF7BCF11A688B9F007AB98B /* DXListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7BCEE1A688B9F007AB98B /* DXListTableViewDataSource.m */; };
+		4FF7BCF41A688C36007AB98B /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7BCF31A688C36007AB98B /* Entry.m */; };
+=======
+		4942EC4E1A8973D100F57F7F /* DXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942EC4C1A8973D100F57F7F /* DXViewController.m */; };
+		4942EC4F1A8973D100F57F7F /* DXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4942EC4D1A8973D100F57F7F /* DXViewController.xib */; };
+>>>>>>> master
+>>>>>>> b999e20fdd8950e53da393586c9c621e85ea328a
 		711A506A19388095005642EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A506919388095005642EF /* Foundation.framework */; };
 		711A506C19388095005642EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A506B19388095005642EF /* CoreGraphics.framework */; };
 		711A506E19388095005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A506D19388095005642EF /* UIKit.framework */; };
@@ -41,8 +53,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		494120681A8D8C6000371DD4 /* DXListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXListTableViewDataSource.h; sourceTree = "<group>"; };
 		494120691A8D8C6000371DD4 /* DXListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXListTableViewDataSource.m; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+		49DD05341A8C60A10056439B /* EntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryController.h; sourceTree = "<group>"; };
+		49DD05351A8C60A10056439B /* EntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryController.m; sourceTree = "<group>"; };
+		4FF7BCEC1A688B9F007AB98B /* DXListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXListViewController.h; sourceTree = "<group>"; };
+		4FF7BCED1A688B9F007AB98B /* DXListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXListViewController.m; sourceTree = "<group>"; };
+		4FF7BCEE1A688B9F007AB98B /* DXListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXListTableViewDataSource.m; sourceTree = "<group>"; };
+		4FF7BCEF1A688B9F007AB98B /* DXListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXListTableViewDataSource.h; sourceTree = "<group>"; };
+		4FF7BCF21A688C36007AB98B /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		4FF7BCF31A688C36007AB98B /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+=======
+		4942EC4B1A8973D100F57F7F /* DXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXViewController.h; sourceTree = "<group>"; };
+		4942EC4C1A8973D100F57F7F /* DXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewController.m; sourceTree = "<group>"; };
+		4942EC4D1A8973D100F57F7F /* DXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXViewController.xib; sourceTree = "<group>"; };
+>>>>>>> master
+>>>>>>> b999e20fdd8950e53da393586c9c621e85ea328a
 		711A506619388095005642EF /* DayX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711A506919388095005642EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		711A506B19388095005642EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +129,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FF7BCF51A689455007AB98B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		711A505D19388095005642EF = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +169,10 @@
 		711A506F19388095005642EF /* DayX */ = {
 			isa = PBXGroup;
 			children = (
+				4FF7BCF51A689455007AB98B /* Model */,
 				711A507819388095005642EF /* DXAppDelegate.h */,
 				711A507919388095005642EF /* DXAppDelegate.m */,
+<<<<<<< HEAD
 				7160740319CAE03C00D730CF /* DXListViewController.h */,
 				7160740419CAE03C00D730CF /* DXListViewController.m */,
 				87BD47981A8D6AEF0065B3C3 /* PresentationViewController.h */,
@@ -152,6 +190,25 @@
 				71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */,
 				494120681A8D8C6000371DD4 /* DXListTableViewDataSource.h */,
 				494120691A8D8C6000371DD4 /* DXListTableViewDataSource.m */,
+=======
+<<<<<<< HEAD
+				71B57C4619C758CB00EF6AE3 /* DXDetailViewController.h */,
+				71B57C4719C758CB00EF6AE3 /* DXDetailViewController.m */,
+				71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */,
+				4FF7BCEC1A688B9F007AB98B /* DXListViewController.h */,
+				4FF7BCED1A688B9F007AB98B /* DXListViewController.m */,
+				4FF7BCF21A688C36007AB98B /* Entry.h */,
+				4FF7BCF31A688C36007AB98B /* Entry.m */,
+				49DD05341A8C60A10056439B /* EntryController.h */,
+				49DD05351A8C60A10056439B /* EntryController.m */,
+				4FF7BCEF1A688B9F007AB98B /* DXListTableViewDataSource.h */,
+				4FF7BCEE1A688B9F007AB98B /* DXListTableViewDataSource.m */,
+=======
+				4942EC4B1A8973D100F57F7F /* DXViewController.h */,
+				4942EC4C1A8973D100F57F7F /* DXViewController.m */,
+				4942EC4D1A8973D100F57F7F /* DXViewController.xib */,
+>>>>>>> master
+>>>>>>> b999e20fdd8950e53da393586c9c621e85ea328a
 				711A507B19388095005642EF /* Images.xcassets */,
 				711A507019388095005642EF /* Supporting Files */,
 			);
@@ -263,7 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				71B57C4A19C758CB00EF6AE3 /* DXDetailViewController.xib in Resources */,
+=======
+				4942EC4F1A8973D100F57F7F /* DXViewController.xib in Resources */,
+>>>>>>> master
 				711A507419388095005642EF /* InfoPlist.strings in Resources */,
 				711A507C19388095005642EF /* Images.xcassets in Resources */,
 			);
@@ -284,11 +345,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				4941206A1A8D8C6000371DD4 /* DXListTableViewDataSource.m in Sources */,
 				87BD47911A8D57120065B3C3 /* PageViewControllerDataSource.m in Sources */,
 				87BD47971A8D630A0065B3C3 /* PageViewController.m in Sources */,
 				711A507A19388095005642EF /* DXAppDelegate.m in Sources */,
 				71247D1B19CCE96600E2BFA2 /* Entry.m in Sources */,
+=======
+				4FF7BCF41A688C36007AB98B /* Entry.m in Sources */,
+				4FF7BCF11A688B9F007AB98B /* DXListTableViewDataSource.m in Sources */,
+				4FF7BCF01A688B9F007AB98B /* DXListViewController.m in Sources */,
+				49DD05361A8C60A10056439B /* EntryController.m in Sources */,
+				711A507A19388095005642EF /* DXAppDelegate.m in Sources */,
+				4942EC4E1A8973D100F57F7F /* DXViewController.m in Sources */,
+>>>>>>> b999e20fdd8950e53da393586c9c621e85ea328a
 				711A507619388095005642EF /* main.m in Sources */,
 				7160740219CADDA500D730CF /* EntryController.m in Sources */,
 				7160740519CAE03C00D730CF /* DXListViewController.m in Sources */,
