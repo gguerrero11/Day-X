@@ -27,6 +27,18 @@
     self.textField.text = entry.title;
     self.textView.text = entry.text;
 }
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.textField.delegate = self;
+    self.textView.delegate = self;
+    
+    self.textField.text = self.entry.title;
+    self.textView.text = self.entry.text;
+    
+    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStylePlain target:self action:@selector(save:)];
+    self.navigationItem.rightBarButtonItem = saveButton;
+}
 
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
