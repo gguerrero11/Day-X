@@ -10,7 +10,9 @@
 #import "DXListTableViewDataSource.h"
 #import "DXDetailViewController.h"
 
-#import "EntryController.h"
+#import <DayXKit/DayXKit.h>
+
+
 
 @interface DXListViewController () <UITableViewDelegate>
 

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Entry.h"
 
+
 @interface EntryController : NSObject
 
 @property (nonatomic, strong, readonly) NSArray *entries;
